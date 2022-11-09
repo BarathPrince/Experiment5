@@ -61,7 +61,7 @@
         function grow() {
     var r = parseInt(document.getElementById("rows").value);
     var c = parseInt(document.getElementById("cols").value);
-    var l = ["https://github.com/BarathPrince/images-/blob/main/grape.jfif", "https://github.com/BarathPrince/images-/blob/main/orange.jfif"];
+    var l = ["https://media.istockphoto.com/id/489520104/photo/green-grape-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=9kg_3pMeBKYnHHjx2JECF61QwzxTikLaQ2w-6A5tOO0=", "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Oranges_-_whole-halved-segment.jpg/1200px-Oranges_-_whole-halved-segment.jpg"];
     //document.getElementById("garden").innerHTML = null;
     var garden = document.getElementById("garden");
     for (let i = 0; i < r; i++) {
@@ -118,7 +118,7 @@
     var tail = document.getElementById("num_tails");
     var h = parseInt(head.innerHTML);
     var t = parseInt(tail.innerHTML);
-    var l = ["https://github.com/BarathPrince/images-/blob/main/Head.jfif", "https://github.com/BarathPrince/images-/blob/main/Tail.jfif"];
+    var l = ["https://qph.cf2.quoracdn.net/main-qimg-9c81a54813716fccd8e3608ab2f51dcf-lq", "https://qph.cf2.quoracdn.net/main-qimg-148ae81e6fe0500e130fb547026a9b26-lq"];
     var s = Math.floor(Math.random()*2);
     if (l[s]==l[0]) {
         head.innerHTML = h+1;
@@ -131,7 +131,7 @@
     <fieldset align="center">
             <legend><h1>Heads or Tails</h1></legend>
             <div>
-                <figure><img src="https://github.com/BarathPrince/images-/blob/main/Head.jfif" id="coin" height="200px"
+                <figure><img src="https://qph.cf2.quoracdn.net/main-qimg-9c81a54813716fccd8e3608ab2f51dcf-lq" id="coin" height="200px"
                 width="200px"><br></figure>
             </div>
             <button onclick="flip()" style="margin:5px 0; padding: 5px 10px">Flip</button>
